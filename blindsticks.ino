@@ -80,7 +80,7 @@ void check_emergency()
   {
    // while(digitalRead(Emergency_Button) ==LOW)
      Emergency_detect = true;
-     Serial.println("----------EMERGENY ----------");
+     Serial.println("----------EMERGENCY ----------");
      Serial.println("-------Send Message----------");
      GSM_SENT(1);
      Emergency_detect = false;
